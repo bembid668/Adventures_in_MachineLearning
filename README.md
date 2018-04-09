@@ -45,3 +45,7 @@ Content: Attributes for both student-mat.csv (Math course) and student-por.csv (
 36. G3 - final grade (numeric: from 0 to 20, output target)
 
 References: https://archive.ics.uci.edu/ml/datasets/STUDENT+ALCOHOL+CONSUMPTION
+
+Neural Network: The neural network coded predicts wheher the student has a drinking problem using their past grade history. Since this is a very popular dataset, it was a challenge to not take inspirations from somewhere when I ran into problems. Although I used medium as an inspiration, there were some slight problems in said tutorials that included the merging of datasets(somehow screwed up the accuracy of the predication dataset), as well as the inclusion of some students that did not drink. The dataset was modified to include nly students who drink(to make it easier). 
+
+References: https://medium.com/@curiousily/tensorflow-for-hackers-part-ii-building-simple-neural-network-2d6779d2f91b
